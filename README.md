@@ -1,25 +1,51 @@
-# app-v2-gql-server
-This is a GraphQL server built with TypeScript, Apollo Server, and TypeGraphQL. It provides a simple API for managing books.
+# 📚 app-v2-gql-server
 
-## Installation
+Welcome to the **app-v2-gql-server**! This is a GraphQL server built with TypeScript, Apollo Server, and TypeGraphQL. It provides a simple API for managing books. Let's dive in! 🚀
 
-1. Clone the repository:
+## 📖 Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [License](#license)
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
+
+   ```sh
+   git clone https://github.com/your-username/app-v2-gql-server.git
+   cd app-v2-gql-server
+   ```
+
+2. **Install dependencies**:
+
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server**:
+
+   ```sh
+   npm run dev
+   ```
+
+## 🚀 Usage
+
+### Development
+
+To start the server in development mode with automatic restarts on file changes:
+
 ```sh
-git clone https://github.com/your-username/app-v2-gql-server.git
-cd app-v2-gql-server
-
-2. Install dependencies:
-npm install
-
-3. Start the development serve:
 npm run dev
 
+The server will run on http://localhost:4000.
+```
 
-
-
-## Example GraphQL Operations
+## 📚 API
 
 ### Query: Get all books
+
 ```graphql
 query {
   getAllBooks {
@@ -46,3 +72,4 @@ mutation {
     author
   }
 }
+```
